@@ -1825,6 +1825,38 @@ document.write(amount + " ten notes"); */
       });
 } */
 
+//Assignment # 53-58
+
+//Modal Images
+
+/* function showImg(e){
+    var image = document.getElementById("modalimg");
+    image.src = e.src;
+}
+function zoombtn(e){
+    var btn = document.getElementById("zoomin").onclick = function (){
+        var image = document.getElementById("modalimg");
+    image.src = e.src;
+    var width = image.clientWidth;
+    image.style.width = (width+10)+"px";
+    var height = image.clientHeight;
+    image.style.height = (height+10)+"px" ;
+
+    }
+    var btn = document.getElementById("zoomout").onclick = function (){
+    var image = document.getElementById("modalimg");
+    image.src = e.src;
+    var width = image.clientWidth;
+    image.style.width = (width-10)+"px";
+    var height = image.clientHeight;
+    image.style.height = (height-10)+"px" ;
+
+    }
+
+  
+} */
+
+
 //Assignment # 58-67
 
 //1. Consider you have following code snippet
